@@ -12,40 +12,6 @@ El objetivo principal es ofrecer un espacio organizado con ejercicios prácticos
 - Servir como guía de consulta para tareas y estudio independiente
 - Proveer código de referencia para futuros proyectos
 
-## Estructura del Repositorio
-Tareas-de-JS-en-POO/
-│
-├── listas/
-│ ├── lista-simplemente-enlazada.js
-│ ├── lista-doblemente-enlazada.js
-│ └── operaciones-listas.js
-│
-├── pilas/
-│ ├── pila-array.js
-│ ├── pila-clase.js
-│ └── ejemplos-practicos.js
-│
-├── colas/
-│ ├── cola-fifo.js
-│ ├── cola-circular.js
-│ └── simulacion-turnos.js
-│
-├── torre-hanoi/
-│ ├── hanoi-recursivo.js
-│ ├── hanoi-iterativo.js
-│ └── visualizacion-hanoi.html
-│
-├── poo-ejercicios/
-│ ├── clases-objetos/
-│ ├── herencia-polimorfismo/
-│ └── cajero-automatico/
-│
-└── proyectos/
-├── cajero-automatico/
-└── gestion-inventario/
-
-
-
 ## Tecnologías Utilizadas
 
 - JavaScript ES6+
@@ -98,12 +64,12 @@ Tareas-de-JS-en-POO/
 1. Clona el repositorio:
 ```bash
 git clone https://github.com/Zexter27/Tareas-de-JS-en-POO.git
-
-Abre la carpeta del ejercicio que deseas estudiar.
-Examina los archivos .js y, si existen, los archivos .html relacionados.
-Ejecuta el código desde consola, navegador o entorno Node.js según el ejercicio.
-Modifica el código para experimentar con los conceptos, añadir nuevas funciones, mejorar el diseño o explorar nuevas variantes.
-Utiliza este repositorio como un cuaderno de estudio en constante crecimiento.
+```
+- Abre la carpeta del ejercicio que deseas estudiar.
+- Examina los archivos .js y, si existen, los archivos .html relacionados.
+- Ejecuta el código desde consola, navegador o entorno Node.js según el ejercicio.
+- Modifica el código para experimentar con los conceptos, añadir nuevas funciones, mejorar el diseño o explorar nuevas variantes.
+- Utiliza este repositorio como un cuaderno de estudio en constante crecimiento.
 
 ### Requisitos
 Conocimientos básicos de JavaScript
