@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Torres de Hanoi OOP</title>
+  <link rel="shortcut icon" href="torre icon.PNG">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  <h1>Torres de Hanoi</h1>
+  <p>Selecciona una torre de origen y luego una de destino, luego pulsa "Mover".</p>
+
+  <div class="torres">
+    <div class="torre-container">
+      <div class="torre-label">Torre A</div>
+      <div id="A" class="torre" onclick="seleccionarTorre('A')"></div>
+    </div>
+    <div class="torre-container">
+      <div class="torre-label">Torre B</div>
+      <div id="B" class="torre" onclick="seleccionarTorre('B')"></div>
+    </div>
+    <div class="torre-container">
+      <div class="torre-label">Torre C</div>
+      <div id="C" class="torre" onclick="seleccionarTorre('C')"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="seleccion-container">
+      <div class="seleccion-item">
+        <strong>Origen:</strong> 
+        <span id="origen-seleccionado">-</span>
+        <button class="cambiar-btn" onclick="cambiarOrigen()" id="cambiar-origen" style="display: none;">Cambiar</button>
+      </div>
+      <div class="seleccion-item">
+        <strong>Destino:</strong> 
+        <span id="destino-seleccionado">-</span>
+        <button class="cambiar-btn" onclick="cambiarDestino()" id="cambiar-destino" style="display: none;">Cambiar</button>
+      </div>
+    </div>
+    <button onclick="realizarMovimiento()">Mover</button>
+    <button onclick="reiniciarJuego()">Reiniciar</button>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
+
