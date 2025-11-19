@@ -8,15 +8,12 @@
 - HTML (en algunos ejercicios)
 - CSS (en algunos ejercicios)
 
-## Live Demo (if available)
-_No aplica por el momento_
-
 ## Getting Started
 
 Para obtener una copia local y comenzar a trabajar con el contenido del repositorio, sigue los siguientes pasos.
 
 ### Prerequisites
-- Node (opcional para ejecutar algunos scripts)
+- Node
 - Navegador web
 - Editor de texto (por ejemplo: VSCode)
 
